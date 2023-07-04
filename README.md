@@ -10,8 +10,8 @@
 Clonez le projet. Si Angular n'est pas installé, exécutez `npm install -g @angular/cli` .
 <br>Executez ensuite `npm install`
 
-Lanncez ensuite Angular en exécutant dans /frontend `ng serve --host 0.0.0.0`
-<br>Lanncez Node exécutant dans /backend `npm start`
+Allez dans ```/frontend``` et lancez ensuite Angular en exécutant `ng serve --host 0.0.0.0`
+<br>Allez dans ```/backend``` et lancez Node exécutant `npm start`
 
 #### via Docker
 
