@@ -2,7 +2,7 @@
 <h3 align="center">Projet Angular-Node</h3>
 <br>
 <p align="center">
-    <img src="./../../Pictures/Screenshots/purple-rain.png" width="200">
+    <img src="./frontend/src/assets/purple-rain.png" width="200">
 </p>
 
 ### Comment installer ?
@@ -11,7 +11,7 @@ Clonez le projet. Si Angular n'est pas installé, exécutez `npm install -g @ang
 <br>Executez ensuite `npm install`
 
 Lanncez ensuite Angular en exécutant `ng serve --host 0.0.0.0`
-Lanncez Node exécutant `npm start`
+<br>Lanncez Node exécutant `npm start`
 
 #### via Docker
 
