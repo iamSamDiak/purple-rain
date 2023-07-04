@@ -2,7 +2,7 @@
 <h3 align="center">Projet Angular-Node</h3>
 <br>
 <p align="center">
-    <img src="./frontend/src/assets/purple-rain.png" width="200">
+    <img src="./frontend/src/assets/purple-rain.png" width="400">
 </p>
 
 ### Comment installer ?
