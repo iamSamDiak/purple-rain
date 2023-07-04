@@ -1,0 +1,49 @@
+.hide{
+    display: none;
+}
+
+.display{
+    display: block;
+}
+
+.fadeIn{
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.start button{
+    font-size: 3rem;
+    border: none;
+    background: #00000060;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.start button:hover{
+    opacity: .5;
+}
+
+.gameover{
+    padding: 10px;
+    width: fit-content;
+    background-color: #00000060;
+    color: #fff;
+    text-align: center;
+}
+
+.gameover .restart-save{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gameover .restart-save div{
+    margin: 10px;
+    cursor: pointer;
+}

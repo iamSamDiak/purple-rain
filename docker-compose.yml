@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  front-end:
+    image: node:latest
+    working_dir: /app
+    ports:
+      - '4200:4200'
+    volumes:
+      - .:/app/
+    networks:
+      - angular-node
+    command: sh -c "while true; do sleep 1; done"
+
+  back-end:
+    image: node:latest
+    working_dir: /app
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./backend:/app/
+    networks:
+      - angular-node
+    command: sh -c "while true; do sleep 1; done"
+
+networks:
+  angular-node:

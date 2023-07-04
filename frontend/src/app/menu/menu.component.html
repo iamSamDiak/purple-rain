@@ -1,0 +1,17 @@
+<div class="{{!hasGameStarted ? 'start display fadeIn': 'start hide'}}">
+    <button (click)="startGame()">Start</button>
+</div>
+<div class="{{!isGameOver ? 'hide gameover': 'display gameover'}}">
+    <div>
+        <h1>Game Over!</h1>
+    </div>
+    <div class="restart-save">
+        <div (click)="restart()">
+            <p>Restart</p>
+        </div>
+        <div (click)="savePoints()">
+            <p>Save Points</p>
+        </div>
+    </div>
+</div>
+<a class="aLink"></a>

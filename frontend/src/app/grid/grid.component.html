@@ -1,0 +1,5 @@
+<div class="rows" *ngFor="let index of rowsCount">
+    <div class="cols" *ngFor="let index of colsCount">
+    </div>
+</div>
+<app-player [style.top]="getTop()" [style.left]="getLeft()" class="player"></app-player>
